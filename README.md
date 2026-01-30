@@ -16,6 +16,7 @@ Our Proof of Concept focuses on three "High-Signal" technical pillars:
 As an Ahmedabad-based agency, Eons Soft Tech is committed to the "Public Good" nature of this project:
 •	Open Source: The entire SDK, Anchor programs (Rust), and ZK-circuits will be public and MIT-licensed.
 •	Ecosystem Growth: UTP enables the next generation of Solana "Airdrop-Safe" protocols and fraud-free merchant payment rails.
+________________________________________
 
 
 1. Universal Benchmarking Table (The Comparison)
@@ -33,7 +34,7 @@ Layer 3: The Trust Registry (On-Chain)
 •	Tech: Rust + Anchor Framework.
 •	Spec: A decentralized registry using Program Derived Addresses (PDAs).
 •	The "Burn-to-Validate" Logic: To prevent Sybil spam, users must burn a micro-amount of SOL (0.001 SOL) to mint their unique "Trust Hash" on-chain. This creates an economic cost for attackers that far outweighs any bot-driven reward.
-________________________________________
+
 3. The "Solana-Native" Advantage
 Reviewers need to know why this must be on Solana:
 •	Parallel Execution: UTP uses Solana’s Sealevel runtime to verify thousands of identity attestations simultaneously.
