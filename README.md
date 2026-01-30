@@ -31,7 +31,7 @@ This table should be prominently featured on the landing page to show how Unifie
 | Bot Barrier    | Social Scoring          | Centralized        | **Burn-to-Validate (On-chain)**   |
 
 
-3. Technical Architecture & Component Stack
+2. Technical Architecture & Component Stack
 The UTP is built on a modular three-layer stack designed for sub-second finality.
 Layer 1: The Privacy Engine (ZK-Email)
 •	Tech: Circom + SnarkJS.
@@ -44,7 +44,7 @@ Layer 3: The Trust Registry (On-Chain)
 •	Spec: A decentralized registry using Program Derived Addresses (PDAs).
 •	The "Burn-to-Validate" Logic: To prevent Sybil spam, users must burn a micro-amount of SOL (0.001 SOL) to mint their unique "Trust Hash" on-chain. This creates an economic cost for attackers that far outweighs any bot-driven reward.
 
-4. The "Solana-Native" Advantage
+3. The "Solana-Native" Advantage
 Reviewers need to know why this must be on Solana:
 •	Parallel Execution: UTP uses Solana’s Sealevel runtime to verify thousands of identity attestations simultaneously.
 •	Sub-Cent Fees: Verification costs remain under $0.0001, making it viable for high-volume micro-payments (PayFi).
